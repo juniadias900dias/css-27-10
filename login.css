@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: rgb(241, 146, 194);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+
+/* Cabeçalho */
+header{
+    background-color:rgb(228, 117, 172);
+    color: ghostwhite;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+}
+header p{
+    margin-top: 5px;
+}
+
+main{
+    width: 400px;
+    margin: 60px auto;
+}
+.login{
+    background-color:rgb(228, 117, 172);
+    padding: 30px;
+    border: 1px solid snow;
+    border-radius: 10px;
+}
+.login h2 {
+    text-align: center;
+    color: rgb(194, 0, 97);
+    margin-top: 0;
+}
+.descricao{
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(194, 0, 97);
+}
+
+button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: rgb(194, 0, 97);
+    color: ghostwhite; 
+    border: nome;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: deeppink;
+    color: ghostwhite;
+}
+.cadastro{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.cadastro a{
+    color: deeppink;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    color: rgb(194, 0, 97);
+    font-size: 13px;
+}
